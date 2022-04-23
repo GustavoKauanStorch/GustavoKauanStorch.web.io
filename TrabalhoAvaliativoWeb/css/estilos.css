@@ -1,0 +1,167 @@
+*{
+	margin: auto;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+    /*background-color: #000;*/
+	/*color: #fff;*/ 
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.center {
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+section:nth-of-type(1){
+    background: chocolate;
+}
+
+section:nth-of-type(2){
+    background: lightcoral;
+}
+
+section:nth-of-type(3){
+    background: lightseagreen;
+}
+.nav {
+    padding: 2%;
+    width: 95%;
+    /*background: rgb(55,53,53);
+    background: linear-gradient(90deg, rgba(55,53,53,1) 5%, rgba(45,122,193,1) 46%, rgba(119,195,230,1) 85%);*/
+    background: #000;
+    position: relative;
+    top: -235px;
+    left: 3px;
+}
+
+.imgLogo {
+    position: relative;
+    top: 14px;
+    border-radius: 20%;
+}
+
+.textLogo {
+    width: 50%;
+    position: relative;
+    top: -30px;
+    left: auto;
+    color: blueviolet;
+    font-size: 150%;
+}
+
+.video {
+    position: relative;
+    top: 115px;
+    right: 360px;
+}
+
+
+.informacao {
+    position: relative;
+    top: -40%;
+}
+
+
+
+
+
+
+
+
+
+.posicao1 {
+    position: relative;
+    left: 10%;
+    top: -25%;
+}
+
+.posicao1:hover {
+    background-color: lightblue;  
+}
+
+.posicaoImg1 {
+    position: relative;
+    left: 25%;
+}
+
+.posicao2 {
+    position: relative;
+    left: 20%;
+    top: -25%;
+}
+
+.posicao2:hover {
+    background-color: lightblue;
+}
+
+.posicaoImg2 {
+    position: relative;
+    left: 25%;
+}
+
+
+.posicao3 {
+    position: relative;
+    left: 30%;
+    top: -25%;
+}
+
+.posicao3:hover {
+    background-color: lightblue;
+}
+
+.posicaoImg3 {
+    position: relative;
+    left: 25%;
+}
+
+
+.posicao4 {
+    position: relative;
+    right: 36%;
+    top: 23%;
+}
+
+.posicao4:hover {
+    background-color: lightblue;
+}
+
+.posicaoImg4 {
+    position: relative;
+    left: 25%;
+}
+
+.posicao5 {
+    position: relative;
+    right: 24%;
+    top: 23%;
+}
+
+.posicao5:hover {
+    background-color: lightblue;
+}
+
+.posicaoImg5 {
+    position: relative;
+    left: 25%;
+}
+
+.equipe {
+    position: relative;
+    top: -40%;
+    left: 5%;
+}

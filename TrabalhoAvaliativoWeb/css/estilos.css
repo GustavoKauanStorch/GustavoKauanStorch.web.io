@@ -2,8 +2,6 @@
 	margin: auto;
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
-    /*background-color: #000;*/
-	/*color: #fff;*/ 
 }
 
 .container{
@@ -27,28 +25,25 @@ section{
 }
 
 section:nth-of-type(1){
-    background: black;
-   /* background-image: url(../imagens/www_6.png); */
+    background: #02021a;
 }
 
 section:nth-of-type(2){
-    background: black;
+    background: #000;
 }
 
 section:nth-of-type(3){
-    background: rgb(55,53,53);
-    background: linear-gradient(90deg, rgba(55,53,53,1) 5%, rgba(45,122,193,1) 46%, rgba(119,195,230,1) 85%);
+    background: #02021a;
 }
 
 section:nth-of-type(4){
-    background: rgb(55,53,53);
-    background: linear-gradient(90deg, rgba(55,53,53,1) 5%, rgba(45,122,193,1) 46%, rgba(119,195,230,1) 85%);
+    background: #02021a;
 }
 
 .imgLogo {
     position: relative;
-    top: -120px;
-    left: 4%;
+    top: 0px;
+    left: 7%;
 }
 
 .navbar {
@@ -86,34 +81,48 @@ nav.navbar ul li a:hover{
     left: 300px;
 }
 
-.video {
+/*.video {
     position: relative;
     top: 5%;
     right: 11.5%;
-}
-
+} */
 
 .informacao {
     position: relative;
     top: -40%;
+    left: 42%;
+    color:#fff;
 }
 
+.texto1 {
+    width: 40%;
+    position: relative;
+    top: -15%;
+    right: 11%;
+    color: #fff;
+}
 
-
-
-
-
-
-
+.texto2 {
+    width:40%;
+    position: relative;
+    top: -15%;
+    right: 5%;
+    color: #fff;
+}
 
 .posicao1 {
     position: relative;
     left: 10%;
     top: -25%;
+    color:#fff;
 }
 
 .posicao1:hover {
-    background-color: lightblue;  
+    background: rgb(0,147,233);
+	background: linear-gradient(160deg, rgba(0,147,233,0.49763655462184875) 0%, rgba(128,208,199,0.49763655462184875) 100%);
+    border-radius: 10px;
+	padding: 10px;
+	text-decoration: none; 
 }
 
 .posicaoImg1 {
@@ -125,10 +134,15 @@ nav.navbar ul li a:hover{
     position: relative;
     left: 20%;
     top: -25%;
+    color:#fff;
 }
 
 .posicao2:hover {
-    background-color: lightblue;
+    background: rgb(0,147,233);
+	background: linear-gradient(160deg, rgba(0,147,233,0.49763655462184875) 0%, rgba(128,208,199,0.49763655462184875) 100%);
+    border-radius: 10px;
+	padding: 10px;
+	text-decoration: none; 
 }
 
 .posicaoImg2 {
@@ -136,15 +150,19 @@ nav.navbar ul li a:hover{
     left: 25%;
 }
 
-
 .posicao3 {
     position: relative;
     left: 30%;
     top: -25%;
+    color:#fff;
 }
 
 .posicao3:hover {
-    background-color: lightblue;
+    background: rgb(0,147,233);
+	background: linear-gradient(160deg, rgba(0,147,233,0.49763655462184875) 0%, rgba(128,208,199,0.49763655462184875) 100%);
+    border-radius: 10px;
+	padding: 10px;
+	text-decoration: none; 
 }
 
 .posicaoImg3 {
@@ -152,15 +170,19 @@ nav.navbar ul li a:hover{
     left: 25%;
 }
 
-
 .posicao4 {
     position: relative;
-    right: 36%;
+    right: 28%;
     top: 23%;
+    color:#fff;
 }
 
 .posicao4:hover {
-    background-color: lightblue;
+    background: rgb(0,147,233);
+	background: linear-gradient(160deg, rgba(0,147,233,0.49763655462184875) 0%, rgba(128,208,199,0.49763655462184875) 100%);
+    border-radius: 10px;
+	padding: 10px;
+	text-decoration: none; 
 }
 
 .posicaoImg4 {
@@ -170,12 +192,17 @@ nav.navbar ul li a:hover{
 
 .posicao5 {
     position: relative;
-    right: 24%;
+    right: 17%;
     top: 23%;
+    color:#fff;
 }
 
 .posicao5:hover {
-    background-color: lightblue;
+    background: rgb(0,147,233);
+	background: linear-gradient(160deg, rgba(0,147,233,0.49763655462184875) 0%, rgba(128,208,199,0.49763655462184875) 100%);
+    border-radius: 10px;
+	padding: 10px;
+	text-decoration: none; 
 }
 
 .posicaoImg5 {
@@ -184,9 +211,11 @@ nav.navbar ul li a:hover{
 }
 
 .equipe {
+    color: #fff;
+    width: 100%;
     position: relative;
     top: -40%;
-    left: 5%;
+    left: 3%;
 }
 
 .rodape{
